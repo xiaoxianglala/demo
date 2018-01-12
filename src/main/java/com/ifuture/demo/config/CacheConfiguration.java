@@ -40,6 +40,13 @@ public class CacheConfiguration {
             cm.createCache(com.ifuture.demo.domain.User.class.getName(), jcacheConfiguration);
             cm.createCache(com.ifuture.demo.domain.Authority.class.getName(), jcacheConfiguration);
             cm.createCache(com.ifuture.demo.domain.User.class.getName() + ".authorities", jcacheConfiguration);
+            cm.createCache(com.ifuture.demo.domain.Student.class.getName(), jcacheConfiguration);
+            cm.createCache(com.ifuture.demo.domain.Teacher.class.getName(), jcacheConfiguration);
+            cm.createCache(com.ifuture.demo.domain.Course.class.getName(), jcacheConfiguration);
+            cm.createCache(com.ifuture.demo.domain.Score.class.getName(), jcacheConfiguration);
+            cm.createCache(com.ifuture.demo.domain.Department.class.getName(), jcacheConfiguration);
+            cm.createCache(com.ifuture.demo.domain.Employee.class.getName(), jcacheConfiguration);
+            cm.createCache(com.ifuture.demo.domain.Department.class.getName() + ".employees", jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }

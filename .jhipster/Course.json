@@ -1,0 +1,21 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "courseName",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "maxlength"
+            ],
+            "fieldValidateRulesMaxlength": "50"
+        }
+    ],
+    "changelogDate": "20180110085632",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "tb_course",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination"
+}
